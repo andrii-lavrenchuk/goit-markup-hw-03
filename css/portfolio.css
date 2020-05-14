@@ -1,0 +1,43 @@
+.list {
+  list-style: none;
+}
+/* Filter */
+.portfolio .button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio .button:focus,
+.portfolio .button:hover {
+  background-color: var(--accent-color);
+  color: var(--third-color);
+}
+/* Examples */
+.examples .link {
+  text-decoration: none;
+}
+.examples .title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.examples .type {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+.examples .description {
+  color: var(--third-color);
+  background-color: #99c7e4;
+
+  font-size: 18px;
+  line-height: 1.56;
+}

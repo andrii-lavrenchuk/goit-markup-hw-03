@@ -1,0 +1,90 @@
+/* колір основного тектсу #212121 */
+/* вторинний колір тексту #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* адреса (футер) rgba(255, 255, 255, 0.6) */
+/* рік (футер) rgba(255, 255, 255, 0.4) */
+/* вторичний колір фону #F5F4FA */
+/* колір фону футера #2F303A */
+
+.list {
+  list-style: none;
+}
+
+/* hero */
+
+.hero .hero-title {
+  color: var(--third-color);
+  background-color: #99c7e4;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .button {
+  color: var(--third-color);
+  background-color: var(--accent-color);
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Features */
+.feature-list .title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-list .features-text {
+  color: var(--secondary-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Work */
+.work-list .title {
+  color: var(--third-color);
+  background-color: #99c7e4;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* Our team */
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list .teammate {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-list .major {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}

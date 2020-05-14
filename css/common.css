@@ -1,0 +1,120 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-background-color: #f5f4fa;
+  --third-color: #ffffff;
+  --third-background-color: #2f303a;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+  --footer-year-color: rgba(255, 255, 255, 0.4);
+}
+/* Body */
+.page-body {
+  background-color: var(--third-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--accent-color);
+
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-word {
+  color: var(--primary-text-color);
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Address */
+
+.address-list .link {
+  color: var(--secondary-text-color);
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.address-list .link:focus,
+.address-list .link:hover {
+  color: var(--accent-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--third-background-color);
+}
+.logo-footer {
+  color: var(--accent-color);
+
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.17;
+}
+.logo-word-footer {
+  color: var(--third-color);
+}
+.footer-address {
+  color: var(--third-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts {
+  color: var(--contacts-footer-color);
+
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .call {
+  color: var(--third-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.footer-year {
+  color: var(--footer-year-color);
+
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+/* Button */
+.footer-button {
+  color: var(--third-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
