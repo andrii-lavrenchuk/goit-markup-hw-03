@@ -23,17 +23,20 @@
   margin: 0;
 }
 .container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
-  outline: 2px solid tomato;
+
+  /* outline: 2px solid tomato; */
 }
 
-.page-header {
-  background-color: #ccc;
-}
 /* Logo */
 .logo {
+  margin-left: auto;
+  margin-right: 86px;
+
   color: var(--accent-color);
 
   text-decoration: none;
@@ -45,9 +48,35 @@
 .logo-word {
   color: var(--primary-text-color);
 }
+/* Main-nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+/* Address nav */
+.address-nav {
+  margin-left: auto;
+}
 
 /* Site nav */
+.site-nav {
+  display: flex;
+}
+
+/* .site-nav .item:not(:last-child) {
+  margin-right: 50px;
+} */
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
 
   text-decoration: none;
@@ -64,6 +93,14 @@
   color: var(--accent-color);
 }
 /* Address */
+.address-list {
+  display: flex;
+}
+.address-list .item + .item {
+  display: block;
+  margin-left: 50px;
+}
+
 .address-list .link {
   color: var(--secondary-text-color);
 
@@ -80,11 +117,15 @@
 }
 /* Footer */
 .footer {
-  margin-top: 94px;
-
   background-color: var(--third-background-color);
 }
+.footer-nav {
+  display: flex;
+}
 .logo-footer {
+  display: block;
+  padding-top: 48px;
+
   color: var(--accent-color);
 
   text-decoration: none;
@@ -97,6 +138,8 @@
   color: var(--third-color);
 }
 .footer-address {
+  display: block;
+  margin-top: 10px;
   color: var(--third-color);
 
   font-style: normal;
@@ -104,6 +147,8 @@
   line-height: 1.71;
 }
 .footer-contacts {
+  display: flex;
+  margin-top: 9px;
   color: var(--contacts-footer-color);
 
   font-style: normal;
@@ -111,6 +156,7 @@
   font-size: 14px;
   line-height: 1.71;
 }
+
 .footer .call {
   color: var(--third-color);
 
@@ -119,6 +165,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .footer-year {
   color: var(--footer-year-color);
 
@@ -127,7 +174,7 @@
   text-align: center;
 }
 /* Button */
-.footer-button {
+/* .footer-button {
   color: var(--third-color);
   background-color: var(--accent-color);
 
@@ -135,5 +182,21 @@
   font-weight: 900;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
+} */
+.footer .button {
+  display: inline-block;
+  color: var(--third-color);
+  background-color: var(--accent-color);
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }

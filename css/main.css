@@ -16,7 +16,7 @@
 /* hero */
 
 .hero {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   text-align: center;
 }
 .hero .hero-title {
@@ -49,7 +49,8 @@
   letter-spacing: 0.06em;
 }
 /* section */
-.section-title {
+.features .section-title {
+  display: none;
   margin-bottom: 0;
   margin-top: 0;
   color: var(--primary-text-color);
@@ -61,7 +62,7 @@
 }
 /* Features */
 .features {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   padding-top: 94px;
 }
 
@@ -76,6 +77,13 @@
   line-height: 1.14;
   text-transform: uppercase;
 }
+
+.features .feature-list {
+  display: flex;
+}
+.features .item + .item {
+  margin-left: 29px;
+}
 .feature-list .features-text {
   color: var(--secondary-text-color);
 
@@ -87,11 +95,18 @@
 /* Work */
 
 .our-work {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   padding-top: 94px;
 }
 .work-list {
   margin-top: 50px;
+}
+.our-work .work-list {
+  display: flex;
+  justify-content: space-between;
+}
+.work-list .item + .item {
+  margin-left: 30px;
 }
 .work-list .title {
   color: var(--third-color);
@@ -108,13 +123,31 @@
 /* Our team */
 
 .team {
-  outline: 2px solid tomato;
-  padding-top: 104px;
+  /* outline: 2px solid tomato; */
+  padding-top: 94px;
   background-color: var(--secondary-background-color);
 }
 .team-list {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
+}
+.team-list .item {
+  width: calc((100% - 60px) / 4);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.team-list .item:nth-child(4n) {
+  margin-right: 0;
+}
+.team-list .item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+.item .social-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 38px;
 }
 .section .teammember {
   margin-top: 50px;
@@ -122,7 +155,9 @@
 
 .team-list .teammate {
   margin-bottom: 0;
-  margin-top: 30px;
+  margin-top: 0;
+  padding-top: 30px;
+  text-align: center;
 
   color: var(--primary-text-color);
 
@@ -132,7 +167,9 @@
 }
 .team-list .major {
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
 
   color: var(--secondary-text-color);
 
@@ -143,7 +180,23 @@
   margin-top: 16px;
 }
 /*Customers */
-/* .section .customers {
-  outline: 2px solid tomato;
+.customers .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.customers .customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+.customers-list .item + .item {
+  margin-left: 30px;
+}
+.section.customers {
+  /* outline: 2px solid tomato; */
+  padding-top: 94px;
+}
+.customers-list {
   padding-top: 50px;
-} */
+  padding-bottom: 94px;
+}

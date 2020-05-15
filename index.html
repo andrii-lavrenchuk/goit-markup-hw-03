@@ -18,39 +18,37 @@
   <body class="page-body">
     <!--Header-->
 
-    <header class="page-header">
-      <div class="container">
-        <nav>
+    <header>
+      <div class="container main-nav">
+        <nav class="main-nav">
           <a href="./index.html" class="logo"
             >Web <span class="logo-word">Studio</span>
           </a>
           <ul class="site-nav list">
-            <li><a href="" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="link current">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="container">
-        <ul class="address-list list">
-          <li>
-            <address>
+        <address class="address-nav">
+          <ul class="address-list list">
+            <li class="item">
               <a
                 href="mailto:info@devstudio.com"
                 aria-label="email"
                 class="link"
                 >info@devstudio.com</a
               >
-            </address>
-          </li>
-          <li>
-            <address>
+            </li>
+            <li class="item">
               <a href="tel:+380961111111" aria-label="phone-number" class="link"
                 >+38 096 111 11 11</a
               >
-            </address>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
     <main>
@@ -64,7 +62,7 @@
         <div class="container">
           <h2 class="section-title">Преимущества</h2>
           <ul class="feature-list list">
-            <li>
+            <li class="item">
               <a href="" aria-label="antenna-logo">Antenna</a>
               <h3 class="title">Внимание к деталям</h3>
               <p class="features-text">
@@ -72,7 +70,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="clock-logo">Clock</a>
               <h3 class="title">Пунктуальность</h3>
               <p class="features-text">
@@ -80,7 +78,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="monitor-logo">Monitor</a>
               <h3 class="title">Планирование</h3>
               <p class="features-text">
@@ -88,7 +86,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="astronaut-logo">Astronaut</a>
               <h3 class="title">Современные технологии</h3>
               <p class="features-text">
@@ -104,15 +102,15 @@
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
-            <li>
+            <li class="item">
               <img src="./images/comp.jpg" alt="ноутбук" width="380" />
               <h3 class="title">Десктопные приложения</h3>
             </li>
-            <li>
+            <li class="item">
               <img src="./images/mobile-phone.jpg" alt="телефон" width="380" />
               <h3 class="title">Мобильные приложения</h3>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/desktop-monitor.jpg"
                 alt="монитор"
@@ -129,7 +127,7 @@
           <h2 class="section-title">Наша команда</h2>
           <div class="teammember">
             <ul class="team-list list">
-              <li>
+              <li class="item">
                 <img
                   src="./images/our-team/john-smith.jpg"
                   alt="John Smith"
@@ -137,8 +135,8 @@
                 />
                 <h3 class="teammate">John Smith</h3>
                 <p class="major">Product Designer</p>
-                <ul class="list">
-                  <li class="item">
+                <ul class="list social-links">
+                  <li>
                     <a href="" aria-label="instagram-link">Instagram</a>
                   </li>
                   <li>
@@ -152,8 +150,7 @@
                   </li>
                 </ul>
               </li>
-
-              <li>
+              <li class="item">
                 <img
                   src="./images/our-team/marta-stewart.jpg"
                   alt="Marta Stewart"
@@ -161,7 +158,7 @@
                 />
                 <h3 class="teammate">Marta Stewart</h3>
                 <p class="major">Frontend Developer</p>
-                <ul class="list">
+                <ul class="list social-links">
                   <li>
                     <a href="" aria-label="instagram-link">Instagram</a>
                   </li>
@@ -176,7 +173,7 @@
                   </li>
                 </ul>
               </li>
-              <li>
+              <li class="item">
                 <img
                   src="./images/our-team/robert-jakis.jpg"
                   alt="Robert Jakis"
@@ -184,7 +181,7 @@
                 />
                 <h3 class="teammate">Robert Jakis</h3>
                 <p class="major">Marketing</p>
-                <ul class="list">
+                <ul class="list social-links">
                   <li>
                     <a href="" aria-label="instagram-link">Instagram</a>
                   </li>
@@ -199,7 +196,7 @@
                   </li>
                 </ul>
               </li>
-              <li>
+              <li class="item">
                 <img
                   src="./images/our-team/martin-doe.jpg"
                   alt="Martin Doe"
@@ -207,7 +204,7 @@
                 />
                 <h3 class="teammate">Martin Doe</h3>
                 <p class="major">UI Designer</p>
-                <ul class="list">
+                <ul class="list social-links">
                   <li>
                     <a href="" aria-label="instagram-link">Instagram</a>
                   </li>
@@ -230,23 +227,23 @@
       <section class="section customers">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="list customers">
-            <li>
+          <ul class="list customers-list">
+            <li class="item">
               <a href="" aria-label="company-logo-1">Company logo 1 </a>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="company-logo-2">Company logo 2 </a>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="company-logo-3">Company logo 3 </a>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="company-logo-4">Company logo 4 </a>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="company-logo-5">Company logo 5 </a>
             </li>
-            <li>
+            <li class="item">
               <a href="" aria-label="company-logo-6">Company logo 6 </a>
             </li>
           </ul>
@@ -255,41 +252,42 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <nav>
-        <a href="./index.html" class="logo-footer"
-          >Web <span class="logo-word-footer">Studio</span></a
-        >
-      </nav>
+      <div class="container footer-nav">
+        <nav>
+          <a href="./index.html" class="logo-footer"
+            >Web <span class="logo-word-footer">Studio</span></a
+          >
+        </nav>
 
-      <address>
-        <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span>
-        <a href="mailto:info@devstudio.com" class="footer-contacts"
-          >info@devstudio.com</a
-        >
-        <a href="tel:+380961111111" class="footer-contacts"
-          >+38 096 111 11 11</a
-        >
-      </address>
-
-      <b class="call">присоединяйтесь</b>
-      <ul class="list">
-        <li>
-          <a href="" aria-label="Instagram link">Instagram</a>
-        </li>
-        <li>
-          <a href="" aria-label="Twitter link">Twitter</a>
-        </li>
-        <li>
-          <a href="" aria-label="Facebook link">Facebook</a>
-        </li>
-        <li>
-          <a href="" aria-label="Linkedin link">Linkedin</a>
-        </li>
-      </ul>
-
-      <b class="call">Подпишитесь на рассылку</b>
-      <button type="button" class="footer-button">Подписаться</button>
-      <p class="footer-year">2020 | Developed by GoIT Students</p>
+        <address>
+          <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span>
+          <a href="mailto:info@devstudio.com" class="footer-contacts"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+380961111111" class="footer-contacts"
+            >+38 096 111 11 11</a
+          >
+        </address>
+        <b class="call">присоединяйтесь</b>
+        <ul class="list">
+          <li>
+            <a href="" aria-label="Instagram link">Instagram</a>
+          </li>
+          <li>
+            <a href="" aria-label="Twitter link">Twitter</a>
+          </li>
+          <li>
+            <a href="" aria-label="Facebook link">Facebook</a>
+          </li>
+          <li>
+            <a href="" aria-label="Linkedin link">Linkedin</a>
+          </li>
+        </ul>
+        <b class="call">Подпишитесь на рассылку</b>
+        <!-- <button type="button" class="footer-button">Подписаться</button> -->
+        <a href="" class="button">Подписаться</a>
+        <p class="footer-year">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>
