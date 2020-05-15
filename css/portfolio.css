@@ -25,7 +25,7 @@
 }
 .portfolio {
   padding-top: 93px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .portfolio-nav {
   display: flex;
