@@ -16,6 +16,23 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  outline: 2px solid tomato;
+}
+
+.page-header {
+  background-color: #ccc;
+}
+/* Logo */
 .logo {
   color: var(--accent-color);
 
@@ -28,6 +45,7 @@
 .logo-word {
   color: var(--primary-text-color);
 }
+
 /* Site nav */
 .site-nav .link {
   color: var(--primary-text-color);
@@ -46,7 +64,6 @@
   color: var(--accent-color);
 }
 /* Address */
-
 .address-list .link {
   color: var(--secondary-text-color);
 
@@ -63,6 +80,8 @@
 }
 /* Footer */
 .footer {
+  margin-top: 94px;
+
   background-color: var(--third-background-color);
 }
 .logo-footer {

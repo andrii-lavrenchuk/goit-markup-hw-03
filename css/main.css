@@ -9,26 +9,40 @@
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* hero */
 
+.hero {
+  outline: 2px solid tomato;
+  text-align: center;
+}
 .hero .hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+
   color: var(--third-color);
   background-color: #99c7e4;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero .button {
+  display: inline-block;
   color: var(--third-color);
   background-color: var(--accent-color);
 
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   text-decoration: none;
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -36,6 +50,8 @@
 }
 /* section */
 .section-title {
+  margin-bottom: 0;
+  margin-top: 0;
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -44,8 +60,16 @@
   text-align: center;
 }
 /* Features */
+.features {
+  outline: 2px solid tomato;
+  padding-top: 94px;
+}
+
 .feature-list .title {
   color: var(--primary-text-color);
+
+  margin-top: 30px;
+  margin-bottom: 0;
 
   font-weight: 700;
   font-size: 14px;
@@ -55,13 +79,26 @@
 .feature-list .features-text {
   color: var(--secondary-text-color);
 
+  margin-top: 10px;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
 }
 /* Work */
+
+.our-work {
+  outline: 2px solid tomato;
+  padding-top: 94px;
+}
+.work-list {
+  margin-top: 50px;
+}
 .work-list .title {
   color: var(--third-color);
   background-color: #99c7e4;
+
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 700;
   line-height: 1.14;
@@ -69,22 +106,44 @@
   text-transform: uppercase;
 }
 /* Our team */
+
 .team {
+  outline: 2px solid tomato;
+  padding-top: 104px;
   background-color: var(--secondary-background-color);
+}
+.team-list {
+  margin-left: auto;
+  margin-right: auto;
+}
+.section .teammember {
+  margin-top: 50px;
 }
 
 .team-list .teammate {
+  margin-bottom: 0;
+  margin-top: 30px;
+
   color: var(--primary-text-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 .team-list .major {
+  margin-bottom: 0;
+  margin-top: 10px;
+
   color: var(--secondary-text-color);
 
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
+.teammember .list {
+  margin-top: 16px;
+}
+/*Customers */
+/* .section .customers {
+  outline: 2px solid tomato;
+  padding-top: 50px;
+} */
