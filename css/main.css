@@ -101,6 +101,10 @@
 .our-work .section-title {
   text-align: center;
 }
+
+.our-work-photo {
+  display: block;
+}
 .work-list {
   margin-top: 50px;
 }
@@ -141,7 +145,6 @@
 .team-list .item {
   width: calc((100% - 60px) / 4);
   margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .team-list .item:nth-child(4n) {
@@ -149,6 +152,9 @@
 }
 .team-list .item:nth-last-child(-n + 4) {
   margin-bottom: 0;
+}
+.teammember-photo {
+  display: block;
 }
 .item .social-links {
   display: flex;

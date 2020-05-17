@@ -103,16 +103,27 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
             <li class="item">
-              <img src="./images/comp.jpg" alt="ноутбук" width="380" />
+              <img
+                src="./images/comp.jpg"
+                class="our-work-photo"
+                alt="ноутбук"
+                width="380"
+              />
               <h3 class="title">Десктопные приложения</h3>
             </li>
             <li class="item">
-              <img src="./images/mobile-phone.jpg" alt="телефон" width="380" />
+              <img
+                src="./images/mobile-phone.jpg"
+                class="our-work-photo"
+                alt="телефон"
+                width="380"
+              />
               <h3 class="title">Мобильные приложения</h3>
             </li>
             <li class="item">
               <img
                 src="./images/desktop-monitor.jpg"
+                class="our-work-photo"
                 alt="монитор"
                 width="380"
               />
@@ -130,6 +141,7 @@
               <li class="item">
                 <img
                   src="./images/our-team/john-smith.jpg"
+                  class="teammember-photo"
                   alt="John Smith"
                   width="278"
                 />
@@ -153,6 +165,7 @@
               <li class="item">
                 <img
                   src="./images/our-team/marta-stewart.jpg"
+                  class="teammember-photo"
                   alt="Marta Stewart"
                   width="278"
                 />
@@ -176,6 +189,7 @@
               <li class="item">
                 <img
                   src="./images/our-team/robert-jakis.jpg"
+                  class="teammember-photo"
                   alt="Robert Jakis"
                   width="278"
                 />
@@ -199,6 +213,7 @@
               <li class="item">
                 <img
                   src="./images/our-team/martin-doe.jpg"
+                  class="teammember-photo"
                   alt="Martin Doe"
                   width="278"
                 />
@@ -252,42 +267,48 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="container footer-nav">
-        <nav>
-          <a href="./index.html" class="logo-footer"
-            >Web <span class="logo-word-footer">Studio</span></a
-          >
-        </nav>
+      <div class="container footer-flex">
+        <div class="nav-flex">
+          <nav class="logo-flex">
+            <a href="./index.html" class="logo-footer"
+              >Web <span class="logo-word-footer">Studio</span></a
+            >
+          </nav>
 
-        <address>
-          <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span>
-          <a href="mailto:info@devstudio.com" class="footer-contacts"
-            >info@devstudio.com</a
-          >
-          <a href="tel:+380961111111" class="footer-contacts"
-            >+38 096 111 11 11</a
-          >
-        </address>
-        <b class="call">присоединяйтесь</b>
-        <ul class="list">
-          <li>
-            <a href="" aria-label="Instagram link">Instagram</a>
-          </li>
-          <li>
-            <a href="" aria-label="Twitter link">Twitter</a>
-          </li>
-          <li>
-            <a href="" aria-label="Facebook link">Facebook</a>
-          </li>
-          <li>
-            <a href="" aria-label="Linkedin link">Linkedin</a>
-          </li>
-        </ul>
-        <b class="call">Подпишитесь на рассылку</b>
-        <!-- <button type="button" class="footer-button">Подписаться</button> -->
-        <a href="" class="button">Подписаться</a>
-        <p class="footer-year">2020 | Developed by GoIT Students</p>
+          <address class="address-flex">
+            <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span>
+            <a href="mailto:info@devstudio.com" class="footer-contacts"
+              >info@devstudio.com</a
+            >
+            <a href="tel:+380961111111" class="footer-contacts"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="join">
+          <b class="call">присоединяйтесь</b>
+          <ul class="list social-links">
+            <li class="item">
+              <a href="" aria-label="Instagram link">Instagram</a>
+            </li>
+            <li class="item">
+              <a href="" aria-label="Twitter link">Twitter</a>
+            </li>
+            <li class="item">
+              <a href="" aria-label="Facebook link">Facebook</a>
+            </li>
+            <li class="item">
+              <a href="" aria-label="Linkedin link">Linkedin</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <b class="call">Подпишитесь на рассылку</b>
+          <!-- <button type="button" class="footer-button">Подписаться</button> -->
+          <a href="" class="button">Подписаться</a>
+        </div>
       </div>
+      <p class="footer-year">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

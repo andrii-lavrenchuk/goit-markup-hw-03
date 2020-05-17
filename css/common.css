@@ -119,11 +119,16 @@
 .footer {
   background-color: var(--third-background-color);
 }
-.footer-nav {
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.logo-flex {
   display: flex;
 }
-.logo-footer {
-  display: block;
+
+.footer .logo-footer {
   padding-top: 48px;
 
   color: var(--accent-color);
@@ -137,9 +142,31 @@
 .logo-word-footer {
   color: var(--third-color);
 }
+.footer .nav-flex {
+  display: flex;
+  flex-direction: column;
+}
+.address-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .join {
+  display: flex;
+  flex-direction: column;
+}
+.footer .social-links {
+  display: flex;
+  padding-top: 21px;
+}
+.social-links .item + .item {
+  margin-left: 11px;
+}
+.footer .subscribe {
+  display: flex;
+}
 .footer-address {
-  display: block;
-  margin-top: 10px;
+  padding-top: 10px;
   color: var(--third-color);
 
   font-style: normal;
@@ -147,8 +174,7 @@
   line-height: 1.71;
 }
 .footer-contacts {
-  display: flex;
-  margin-top: 9px;
+  padding-top: 9px;
   color: var(--contacts-footer-color);
 
   font-style: normal;
@@ -156,7 +182,6 @@
   font-size: 14px;
   line-height: 1.71;
 }
-
 .footer .call {
   color: var(--third-color);
 
@@ -167,6 +192,9 @@
 }
 
 .footer-year {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--footer-year-color);
 
   font-size: 12px;
@@ -186,6 +214,8 @@
 } */
 .footer .button {
   display: inline-block;
+  margin-top: 21px;
+
   color: var(--third-color);
   background-color: var(--accent-color);
 
