@@ -214,13 +214,13 @@
 } */
 .footer .button {
   display: inline-block;
-  margin-top: 21px;
+  margin-top: 37px;
 
   color: var(--third-color);
   background-color: var(--accent-color);
 
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 45px;
   min-width: 200px;
 
   text-decoration: none;
