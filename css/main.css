@@ -62,7 +62,7 @@
 }
 /* Features */
 .features {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
   padding-top: 94px;
 }
 
@@ -95,11 +95,13 @@
 /* Work */
 
 .our-work {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
   padding-top: 94px;
 }
 .our-work .section-title {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .our-work-photo {
@@ -136,6 +138,8 @@
 }
 .team .section-title {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .team-list {
   display: flex;
