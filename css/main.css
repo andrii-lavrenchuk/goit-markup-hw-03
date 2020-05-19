@@ -62,8 +62,9 @@
 }
 /* Features */
 .features {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list .title {
@@ -95,8 +96,9 @@
 /* Work */
 
 .our-work {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid teal;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-work .section-title {
   text-align: center;
@@ -125,6 +127,7 @@
   margin-bottom: 0;
 
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
@@ -132,8 +135,9 @@
 /* Our team */
 
 .team {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid blue;
   padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 .team .section-title {
@@ -209,8 +213,9 @@
   margin-left: 30px;
 }
 .section.customers {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid aquamarine;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .customers-list {
   padding-top: 50px;
