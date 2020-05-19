@@ -147,6 +147,7 @@
 }
 .team-list {
   display: flex;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -160,23 +161,24 @@
 }
 .team-list .item:nth-last-child(-n + 4) {
   margin-bottom: 0;
+  border-radius: 4px;
+
+  background-color: var(--third-color);
 }
 .teammember-photo {
   display: block;
+  border-radius: 4px 4px 0px 0px;
 }
 .item .social-links {
   display: flex;
   justify-content: center;
-  padding-bottom: 38px;
-}
-.section .teammember {
-  margin-top: 50px;
+  padding-bottom: 24px;
+  margin-top: 28px;
 }
 
 .team-list .teammate {
   margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 30px;
+  margin-top: 30px;
   text-align: center;
 
   color: var(--primary-text-color);
@@ -187,17 +189,13 @@
 }
 .team-list .major {
   margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 10px;
+  margin-top: 10px;
   text-align: center;
 
   color: var(--secondary-text-color);
 
   font-size: 16px;
   line-height: 1.19;
-}
-.teammember .list {
-  margin-top: 16px;
 }
 /*Customers */
 .customers .section-title {
