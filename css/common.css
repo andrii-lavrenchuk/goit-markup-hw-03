@@ -53,6 +53,7 @@
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 /* Address nav */
 .address-nav {
@@ -120,17 +121,13 @@
   background-color: var(--third-background-color);
 }
 .footer-flex {
+  padding-top: 48px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-.logo-flex {
-  display: flex;
-}
 
 .footer .logo-footer {
-  padding-top: 48px;
-
   color: var(--accent-color);
 
   text-decoration: none;
@@ -148,6 +145,7 @@
 }
 .address-flex {
   display: flex;
+  padding-bottom: 28px;
   flex-direction: column;
 }
 
@@ -191,9 +189,12 @@
   text-transform: uppercase;
 }
 
-.footer-year {
+.copyright {
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 
   color: var(--footer-year-color);
 
