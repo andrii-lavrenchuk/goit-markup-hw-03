@@ -1,11 +1,3 @@
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.list {
-  list-style: none;
-}
 /* Filter */
 .portfolio .button {
   border: 0;
@@ -33,11 +25,6 @@ img {
 }
 .portfolio .portfolio-title {
   display: none;
-}
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  /* outline: 2px solid tomato; */
 }
 .portfolio-nav {
   display: flex;

@@ -8,6 +8,11 @@
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
   --footer-year-color: rgba(255, 255, 255, 0.4);
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* Body */
 .page-body {
   background-color: var(--third-color);
@@ -32,6 +37,11 @@
   /* outline: 2px solid tomato; */
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Logo */
 .logo {
   margin-left: auto;
@@ -50,11 +60,17 @@
 }
 /* Main-nav */
 
-.main-nav {
+.header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* Address nav */
 .address-nav {
   margin-left: auto;

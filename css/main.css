@@ -6,16 +6,6 @@
 /* рік (футер) rgba(255, 255, 255, 0.4) */
 /* вторичний колір фону #F5F4FA */
 /* колір фону футера #2F303A */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 /* hero */
 
@@ -65,11 +55,6 @@ img {
   text-align: center;
 }
 /* Features */
-.features {
-  /* outline: 2px solid tomato; */
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .feature-list .title {
   color: var(--primary-text-color);
@@ -106,10 +91,7 @@ img {
 /* Work */
 
 .our-work {
-  /* outline: 2px solid teal; */
-  padding-top: 94px;
-  padding-bottom: 94px;
-  border: 1px solid #ececec;
+  border-top: 1px solid #ececec;
 }
 .our-work .section-title {
   text-align: center;
@@ -148,9 +130,6 @@ img {
 /* Our team */
 
 .team {
-  /* outline: 2px solid blue; */
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 .team .section-title {
@@ -226,10 +205,4 @@ img {
 
 .customers-list .item:nth-child(6n) {
   margin-right: 0;
-}
-
-.customers {
-  /* outline: 2px solid aquamarine; */
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
